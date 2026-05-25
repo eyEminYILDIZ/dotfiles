@@ -6,7 +6,7 @@ My dotfiles.
 
 Dual-Bot System
 
-- Primary: Ubuntu 22.10
+- Primary: Ubuntu 24.04
 - Secondary: Windows 11 Pro
 
 ## Configuration Files
@@ -45,7 +45,6 @@ Dual-Bot System
 | Another Redis Manager | Redis GUI Tool                       |
 | Mongodb Compass       | MongoDB GUI Tool                     |
 | Google Chrome         | Development Browser                  |
-| Brave                 | Daily Browser                        |
 | scrcpy                | Android Screen Casting Tool          |
 
 ## Terminal Tools
