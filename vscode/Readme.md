@@ -5,7 +5,7 @@ Theme, extentions etc.
 ## Theme
 
 Working:
-- Dark+ V2
+- Dark Modern
 
 Project Splitter:
 - Peacock
@@ -21,10 +21,13 @@ Base:
 - Vim
 
 Tools:
-- Git Lens
-- Docker
 - Remote Containers
 - Remote SSH
+- Aspire
+- SQLite
+- SQLite Viewer
+- Docker
+- Dev Containers
 - Kubernetes
 - Todo Tree
 - Rest Client
@@ -58,8 +61,8 @@ Utilities:
 - Git Blame
 - Insert Guid
 - File Utils
-- YAML
 - XML Tools
+- YAML
 - vscode-proto3
 - vscode-pdf
 - ANTLR4 grammar syntax support
