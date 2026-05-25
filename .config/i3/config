@@ -14,6 +14,11 @@ set $mod Mod1
 
 # Remove Borders
 #for_window [class=".*"] border pixel 0
+for_window [class="VirtualBox Machine"] border pixel 0
+for_window [class="Gnome-terminal"] border pixel 0
+for_window [class="zen"] border pixel 0
+for_window [class="vivaldi-stable"] border pixel 0
+for_window [class="microsoft-edge"] border pixel 0
 
 #gaps inner all set 20
 #gaps outer current plus 5
@@ -100,8 +105,15 @@ exec --no-startup-id nm-applet
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# open settings
+bindsym $mod+q exec XDG_CURRENT_DESKTOP=GNOME gnome-control-center
+
 # start a terminal
-bindsym $mod+Return exec konsole
+bindsym $mod+Return exec gnome-terminal
+
+# start a terminal
+bindsym $mod+Shift+Return exec google-chrome
+
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -169,10 +181,10 @@ set $ws1 "1:  Information"
 set $ws2 "2:  Backend"
 set $ws3 "3:  Frontend"
 set $ws4 "4:  UI"
-set $ws5 "5:  Accounts"
-set $ws6 "6:  Play"
-set $ws7 "7:   Connections"
-set $ws8 "8:   VMs"
+set $ws5 "5:  Teams"
+set $ws6 "6:  WebMail"
+set $ws7 "7:   Tasks & Notes"
+set $ws8 "8:   Connections"
 set $ws9 "9:  Tools"
 set $ws10 "10:   VPN"
 
@@ -202,7 +214,7 @@ bindsym $mod+Shift+0 move container to workspace  $ws10
 
 # asssign programs to workspaces
 #assign [class="Firefox"] $ws1
-assign [class="Google-chrome"] $ws4
+#assign [class="Google-chrome"] $ws4
 assign [class="FortiClient"] $ws10
 assign [class="DBeaver"] $ws9
 assign [class="io.conduktor.app.Conduktor"] $ws9
@@ -275,7 +287,7 @@ hide_edge_borders both
 exec --no-startup-id feh --bg-fill ~/Pictures/wallpaper.png
 
 # Enable Trackbar Tapping
-exec --no-startup-id xinput set-prop "Synaptics TM3383-032" "libinput Tapping Enabled" 1
+exec --no-startup-id xinput set-prop "Synaptics TM3383-002" "libinput Tapping Enabled" 1
 
 # CUSTOM_KEY_BINDINGS
 bindsym $mod+shift+x exec i3lock -i ~/Pictures/wallpaper.png
@@ -283,9 +295,14 @@ bindsym $mod+shift+x exec i3lock -i ~/Pictures/wallpaper.png
 # POLYBAR
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
+exec VV=5;
 # Screen Brightness
-bindsym XF86MonBrightnessUp exec sudo ./home/radmin/brightness.sh 1 # increase screen brightness
-bindsym XF86MonBrightnessDown exec sudo ./home/radmin/brightness.sh -1 # decrease screen brightness
+#bindsym XF86MonBrightnessUp exec  "new_val=$(xrandr --current --verbose | grep -m 1 Brightness | awk '{print $2 + 0.1}') &&  xrandr --output eDP-1 --auto --brightness  $new_val"
+#bindsym XF86MonBrightnessDown exec  "new_val=$(xrandr --current --verbose | grep -m 1 Brightness | awk '{print $2 - 0.1}') &&  xrandr --output eDP-1 --auto --brightness  $new_val"
+#bindsym XF86MonBrightnessUp exec  "new_val=$(sudo brightnessctl get | awk '{print $1 / 12 + 5}') &&  sudo brightnessctl set $new_val%"
+#bindsym XF86MonBrightnessDown exec  "new_val=$(sudo brightnessctl get | awk '{print $1 / 12 - 5}') && sudo brightnessctl set $new_val%"
+bindsym XF86MonBrightnessUp exec  "sudo brightnessctl set +5%"
+bindsym XF86MonBrightnessDown exec  "sudo brightnessctl set 5%-"
 
 # Set Keyboard Layout
 bindsym $mod+z exec "setxkbmap -layout us"
