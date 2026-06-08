@@ -42,7 +42,6 @@ Dual-Bot System
 | Flameshot             | Screenshoot Tool                     |
 | Gromit-Mpx            | Screen Annotation Tool               |
 | Kafka-UI              | Kafka Management Tool                |
-| Another Redis Manager | Redis GUI Tool                       |
 | Mongodb Compass       | MongoDB GUI Tool                     |
 | Google Chrome         | Development Browser                  |
 | scrcpy                | Android Screen Casting Tool          |
