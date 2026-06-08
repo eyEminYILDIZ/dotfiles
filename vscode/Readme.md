@@ -24,8 +24,6 @@ Tools:
 - Remote Containers
 - Remote SSH
 - Aspire
-- SQLite
-- SQLite Viewer
 - Docker
 - Dev Containers
 - Kubernetes
@@ -33,6 +31,8 @@ Tools:
 - Rest Client
 - CodeSnap
 - Draw.io Integration
+- Database Client JDBC
+
 
 Backend:
 - C#
