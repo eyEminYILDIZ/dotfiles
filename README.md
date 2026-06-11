@@ -27,25 +27,25 @@ Dual-Bot System
 
 | Tool                  | Description                          |
 | --------------------- | ------------------------------------ |
-| Nautilus              | File Explorer                        |
-| gnome-terminal        | Terminal Emulator                    |
-| i3                    | Tiling Windows Manager               |
+| i3                    | Tiling Window Manager               |
 | Polybar               | Status Bar                           |
 | Feh                   | Background Image                     |
-| VLC                   | Media Player                         |
-| Remmina               | RDP Client                           |
+| Nautilus              | File Explorer                        |
+| gnome-terminal        | Terminal Emulator                    |
 | Bash                  | Default Shell                        |
 | Tmux                  | Terminal Multiplexer                 |
-| NeoVim                | Default Editor                       |
+| NeoVim                | Terminal Editor                       |
 | VSCode                | IDE for Backend, Frontend and Mobile |
 | Android Studio        | IDE for Mobile                       |
 | Dbeaver               | Universal Database Tool              |
 | Docker                | Conteinarization Tool                |
+| Remmina               | RDP Client                           |
 | Flameshot             | Screenshoot Tool                     |
 | Gromit-Mpx            | Screen Annotation Tool               |
 | Kafka-UI              | Kafka Management Tool                |
 | Mongodb Compass       | MongoDB GUI Tool                     |
 | Google Chrome         | Development Browser                  |
+| VLC                   | Media Player                         |
 | scrcpy                | Android Screen Casting Tool          |
 
 ## Terminal Tools
