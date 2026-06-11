@@ -28,6 +28,7 @@ Dual-Bot System
 | Tool                  | Description                          |
 | --------------------- | ------------------------------------ |
 | Nautilus              | File Explorer                        |
+| gnome-terminal        | Terminal Emulator                    |
 | i3                    | Tiling Windows Manager               |
 | Polybar               | Status Bar                           |
 | Feh                   | Background Image                     |
