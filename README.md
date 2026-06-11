@@ -11,48 +11,49 @@ Dual-Bot System
 
 ## Configuration Files
 
-| Tool    | Description             |
-| ------- | ----------------------- |
-| i3      | Tiling Windows Manager  |
-| Polybar | Status Bar              |
-| Feh     | Background Image        |
-| Bash    | Default Shell           |
-| FZF     | Fuzzy Search            |
-| Tmux    | Terminal Multiplexer    |
-| NeoVim  | Default Editor          |
-| VSCode  | IDE                     |
-| Dbeaver | Universal Database Tool |
+| Tool           | Description             |
+| -------------- | ----------------------- |
+| i3             | Tiling Window Manager   |
+| Polybar        | Status Bar              |
+| Feh            | Background Image        |
+| gnome-terminal | Terminal Emulator       |
+| Bash           | Default Shell           |
+| FZF            | Fuzzy Search            |
+| Tmux           | Terminal Multiplexer    |
+| NeoVim         | Default Editor          |
+| VSCode         | IDE                     |
+| Dbeaver        | Universal Database Tool |
 
 ## Daily Use Tools
 
-| Tool                  | Description                          |
-| --------------------- | ------------------------------------ |
-| i3                    | Tiling Window Manager               |
-| Polybar               | Status Bar                           |
-| Feh                   | Background Image                     |
-| Nautilus              | File Explorer                        |
-| gnome-terminal        | Terminal Emulator                    |
-| Bash                  | Default Shell                        |
-| Tmux                  | Terminal Multiplexer                 |
-| NeoVim                | Terminal Editor                       |
-| VSCode                | IDE for Backend, Frontend and Mobile |
-| Android Studio        | IDE for Mobile                       |
-| Dbeaver               | Universal Database Tool              |
-| Docker                | Conteinarization Tool                |
-| Remmina               | RDP Client                           |
-| Flameshot             | Screenshoot Tool                     |
-| Gromit-Mpx            | Screen Annotation Tool               |
-| Kafka-UI              | Kafka Management Tool                |
-| Mongodb Compass       | MongoDB GUI Tool                     |
-| Google Chrome         | Development Browser                  |
-| VLC                   | Media Player                         |
-| scrcpy                | Android Screen Casting Tool          |
+| Tool              | Description                          |
+| ----------------- | ------------------------------------ |
+| i3                | Tiling Window Manager                |
+| Polybar           | Status Bar                           |
+| Feh               | Background Image                     |
+| Nautilus          | File Explorer                        |
+| gnome-terminal    | Terminal Emulator                    |
+| Bash              | Default Shell                        |
+| Tmux              | Terminal Multiplexer                 |
+| NeoVim            | Terminal Editor                      |
+| VSCode            | IDE for Backend, Frontend and Mobile |
+| Android Studio    | IDE for Mobile                       |
+| Dbeaver           | Universal Database Tool              |
+| Docker            | Conteinarization Tool                |
+| Remmina           | RDP Client                           |
+| Flameshot         | Screenshoot Tool                     |
+| Gromit-Mpx        | Screen Annotation Tool               |
+| Kafka-UI          | Kafka Management Tool                |
+| Mongodb Compass   | MongoDB GUI Tool                     |
+| Google Chrome     | Development Browser                  |
+| VLC               | Media Player                         |
+| scrcpy            | Android Screen Casting Tool          |
 
 ## Terminal Tools
 
 | Tool          | Description                        |
 | ------------- | ---------------------------------- |
-| bat           | Syntax higlighted version of 'cat' |
+| bat           | Syntax highlighted version of 'cat'|
 | gdu           | Disk analyzer tool                 |
 | trash-cli     | Trash control tool                 |
 | speedtest-cli | Network speed test tool            |
