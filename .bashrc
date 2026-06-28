@@ -124,7 +124,7 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # JAVA
-export JAVA_HOME=/usr/lib/jvm/default-java
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 
 # Deno Setup
 export DENO_INSTALL="/home/radmin/.deno"
@@ -166,3 +166,6 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # Added by get-aspire-cli.sh
 export PATH="$HOME/.aspire/bin:$PATH"
+
+# opencode
+export PATH=/home/radmin/.opencode/bin:$PATH
