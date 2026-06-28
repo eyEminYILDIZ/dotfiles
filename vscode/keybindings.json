@@ -6,7 +6,7 @@
     },
     {
         "key": "ctrl+shift+space",
-        "command": "workbench.action.focusActiveEditorGroup",
+        "command": "workbench.action.terminal.new",
         "when": "terminalFocus"
     },
     {
@@ -39,5 +39,15 @@
         "key": "ctrl+j",
         "command": "selectNextCodeAction",
         "when": "codeActionMenuVisible"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
     }
 ]
