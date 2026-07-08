@@ -64,7 +64,8 @@
         "markdown": false,
         "scminput": false,
         "typescriptreact": true,
-        "csharp": true
+        "csharp": true,
+        "typescript": true
     },
     "github.copilot.nextEditSuggestions.eagerness": "high",
     "editor.linkedEditing": true,
@@ -73,4 +74,5 @@
     "js/ts.referencesCodeLens.showOnAllFunctions": true,
     "python.analysis.referencesCodeLens": true,
     "chat.tips.enabled": false,
+    "workbench.editor.useModal": "some",
 }
