@@ -59,5 +59,9 @@
         "key": "ctrl+shift+l",
         "command": "workbench.action.terminal.focusNextPane",
         "when": "terminalFocus"
+    },
+    {
+        "key": "tab q",
+        "command": "editor.action.inlineSuggest.trigger"
     }
 ]
