@@ -5,6 +5,8 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.enableVisualBell": true,
     "terminal.integrated.fontSize": 12,
+    "terminal.integrated.enablePersistentSessions": true,
+    "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
     "hediet.vscode-drawio.theme": "Kennedy",
     "editor.fontSize": 12,
     "editor.formatOnSave": true,
@@ -75,4 +77,15 @@
     "python.analysis.referencesCodeLens": true,
     "chat.tips.enabled": false,
     "workbench.editor.useModal": "some",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.suggest.quickSuggestions": {
+        "commands": "on",
+        "arguments": "on",
+        "unknown": "on"
+    },
+    "terminal.integrated.suggest.suggestOnTriggerCharacters": true,
+    "terminal.integrated.tabs.title": "${squence}",
+    "terminal.integrated.textBlinking": true,
+    "terminal.integrated.confirmOnExit": "always",
 }
