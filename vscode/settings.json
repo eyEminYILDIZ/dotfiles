@@ -87,5 +87,5 @@
     "terminal.integrated.suggest.suggestOnTriggerCharacters": true,
     "terminal.integrated.tabs.title": "${squence}",
     "terminal.integrated.textBlinking": true,
-    "terminal.integrated.confirmOnExit": "always",
+    "window.confirmBeforeClose": "always",
 }
