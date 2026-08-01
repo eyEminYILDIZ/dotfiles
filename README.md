@@ -48,6 +48,7 @@ Dual-Bot System
 | Google Chrome     | Development Browser                  |
 | VLC               | Media Player                         |
 | scrcpy            | Android Screen Casting Tool          |
+| git & git-extras  | Version control tools                |
 
 ## Terminal Tools
 
