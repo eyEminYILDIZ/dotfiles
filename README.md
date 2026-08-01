@@ -51,10 +51,12 @@ Dual-Bot System
 
 ## Terminal Tools
 
-| Tool          | Description                        |
-| ------------- | ---------------------------------- |
-| bat           | Syntax highlighted version of 'cat'|
-| gdu           | Disk analyzer tool                 |
-| trash-cli     | Trash control tool                 |
-| speedtest-cli | Network speed test tool            |
-
+| Tool          | Description                           |
+| ------------- | --------------------------------------|
+| bat           | Syntax highlighted version of 'cat'   |
+| gdu           | Disk analyzer tool                    |
+| trash-cli     | Trash control tool                    |
+| speedtest-cli | Network speed test tool               |
+| curl          | Command-line http client              |
+| jq            | Command-line JSON processor           |
+| yq            | Command-line YAML processor           |
