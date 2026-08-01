@@ -37,7 +37,7 @@ make_bar() {
 ctx_pct=$(echo "$input" | jq -r '.context_window.used_percentage // 0' | cut -d. -f1)
 ctx_bar=$(make_bar "$ctx_pct")
 
-echo "Dir: $dir | $meta | Context: $ctx_bar ${ctx_pct}%"
+line="Dir: $dir | $meta | Context: $ctx_bar ${ctx_pct}%"
 
 # Claude subscription rate limit usage (5-hour and 7-day windows)
 five_h=$(echo "$input" | jq -r '.rate_limits.five_hour.used_percentage // empty')
@@ -53,5 +53,7 @@ if [ -n "$five_h" ] || [ -n "$seven_d" ]; then
     wk_pct=$(printf '%.0f' "$seven_d")
     limits="${limits:+$limits | }7d: $(make_bar "$wk_pct") ${wk_pct}%"
   fi
-  echo "$limits"
+  line="$line | $limits"
 fi
+
+echo "$line"
