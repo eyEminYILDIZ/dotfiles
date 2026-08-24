@@ -16,6 +16,7 @@ Dual-Bot System
 | i3             | Tiling Window Manager   |
 | Polybar        | Status Bar              |
 | Feh            | Background Image        |
+| Ghostty        | Terminal Emulator       |
 | gnome-terminal | Terminal Emulator       |
 | Bash           | Default Shell           |
 | FZF            | Fuzzy Search            |
@@ -32,7 +33,7 @@ Dual-Bot System
 | Polybar           | Status Bar                           |
 | Feh               | Background Image                     |
 | Nautilus          | File Explorer                        |
-| gnome-terminal    | Terminal Emulator                    |
+| Ghostty           | Terminal Emulator                    |
 | Bash              | Default Shell                        |
 | Tmux              | Terminal Multiplexer                 |
 | NeoVim            | Terminal Editor                      |
