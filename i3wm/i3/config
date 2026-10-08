@@ -19,6 +19,7 @@ for_window [class="Gnome-terminal"] border pixel 0
 for_window [class="zen"] border pixel 0
 for_window [class="vivaldi-stable"] border pixel 0
 for_window [class="microsoft-edge"] border pixel 0
+for_window [class="ghostty"] border pixel 0
 
 #gaps inner all set 20
 #gaps outer current plus 5
@@ -114,7 +115,7 @@ floating_modifier $mod
 bindsym $mod+q exec XDG_CURRENT_DESKTOP=GNOME gnome-control-center
 
 # start a terminal
-bindsym $mod+Return exec gnome-terminal
+bindsym $mod+Return exec ghostty
 
 # start a terminal
 bindsym $mod+Shift+Return exec google-chrome
@@ -183,15 +184,15 @@ bindsym $mod+a focus parent
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1:  Information"
-set $ws2 "2:  Backend"
-set $ws3 "3:  Frontend"
+set $ws2 "2:  Code"
+set $ws3 "3:  Agents"
 set $ws4 "4:  UI"
 set $ws5 "5:  Teams"
 set $ws6 "6:  WebMail"
-set $ws7 "7:   Tasks & Notes"
+set $ws7 "7:   Tasks"
 set $ws8 "8:   Connections"
 set $ws9 "9:  Tools"
-set $ws10 "10:   VPN"
+set $ws10 "10:   Notes"
 
 # switch to workspace
 bindsym $mod+1 workspace  $ws1
@@ -294,6 +295,10 @@ exec --no-startup-id feh --bg-fill ~/pictures/wallpaper.png
 # Enable Trackbar Tapping
 exec --no-startup-id xinput set-prop "Synaptics TM3383-002" "libinput Tapping Enabled" 1
 
+# CopyQ clipboard management
+exec --no-startup-id copyq
+bindsym $mod+v exec --no-startup-id copyq toggle
+for_window [class="copyq"] floating enable, resize set 700 500, move position center
 
 # POLYBAR
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
