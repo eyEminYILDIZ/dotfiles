@@ -20,6 +20,7 @@ Dual-Bot System
 | gnome-terminal | Terminal Emulator       |
 | Bash           | Default Shell           |
 | FZF            | Fuzzy Search            |
+| copyq          | Clipboard Manager       |
 | Tmux           | Terminal Multiplexer    |
 | NeoVim         | Default Editor          |
 | VSCode         | IDE                     |
@@ -42,6 +43,7 @@ Dual-Bot System
 | Dbeaver           | Universal Database Tool              |
 | Docker            | Conteinarization Tool                |
 | Remmina           | RDP Client                           |
+| copyq             | Clipboard Manager                    |
 | Flameshot         | Screenshoot Tool                     |
 | Gromit-Mpx        | Screen Annotation Tool               |
 | Kafka-UI          | Kafka Management Tool                |
