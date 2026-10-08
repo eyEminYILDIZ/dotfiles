@@ -64,3 +64,4 @@ Dual-Bot System
 | curl          | Command-line http client              |
 | jq            | Command-line JSON processor           |
 | yq            | Command-line YAML processor           |
+| xdotool       | Command-line clipboard helper         | 
