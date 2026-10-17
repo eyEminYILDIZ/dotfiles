@@ -25,6 +25,7 @@ Dual-Bot System
 | NeoVim         | Default Editor          |
 | VSCode         | IDE                     |
 | Dbeaver        | Universal Database Tool |
+| Handy          | Voice Dictation Tool    |
 
 ## Daily Use Tools
 
@@ -52,6 +53,7 @@ Dual-Bot System
 | VLC               | Media Player                         |
 | scrcpy            | Android Screen Casting Tool          |
 | git & git-extras  | Version control tools                |
+| Handy             | Voice Dictation Tool                 |
 
 ## Terminal Tools
 
