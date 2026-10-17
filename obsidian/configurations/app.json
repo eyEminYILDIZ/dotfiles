@@ -1,0 +1,11 @@
+{
+  "showLineNumber": true,
+  "tabSize": 7,
+  "vimMode": true,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "promptDelete": true,
+  "defaultViewMode": "preview",
+  "showInlineTitle": false,
+  "focusNewTab": false
+}

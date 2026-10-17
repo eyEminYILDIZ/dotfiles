@@ -1,0 +1,4 @@
+/* Enlarge the left sidebar (file explorer) only — editor stays untouched */
+.mod-left-split {
+  zoom: 1.10;
+}

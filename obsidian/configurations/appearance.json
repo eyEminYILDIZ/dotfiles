@@ -1,0 +1,9 @@
+{
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "sidebar-zoom",
+    "tag-colors"
+  ]
+}

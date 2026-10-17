@@ -11,21 +11,22 @@ Dual-Bot System
 
 ## Configuration Files
 
-| Tool           | Description             |
-| -------------- | ----------------------- |
-| i3             | Tiling Window Manager   |
-| Polybar        | Status Bar              |
-| Feh            | Background Image        |
-| Ghostty        | Terminal Emulator       |
-| gnome-terminal | Terminal Emulator       |
-| Bash           | Default Shell           |
-| FZF            | Fuzzy Search            |
-| copyq          | Clipboard Manager       |
-| Tmux           | Terminal Multiplexer    |
-| NeoVim         | Default Editor          |
-| VSCode         | IDE                     |
-| Dbeaver        | Universal Database Tool |
-| Handy          | Voice Dictation Tool    |
+| Tool           | Description                  |
+| -------------- | -----------------------------|
+| i3             | Tiling Window Manager        |
+| Polybar        | Status Bar                   |
+| Feh            | Background Image             |
+| Ghostty        | Terminal Emulator            |
+| gnome-terminal | Terminal Emulator            |
+| Bash           | Default Shell                |
+| FZF            | Fuzzy Search                 |
+| copyq          | Clipboard Manager            |
+| Tmux           | Terminal Multiplexer         |
+| NeoVim         | Default Editor               |
+| VSCode         | IDE                          |
+| Dbeaver        | Universal Database Tool      |
+| Handy          | Voice Dictation Tool         |
+| Obsidian       | Knowledge Management Tool    |
 
 ## Daily Use Tools
 
@@ -54,6 +55,7 @@ Dual-Bot System
 | scrcpy            | Android Screen Casting Tool          |
 | git & git-extras  | Version control tools                |
 | Handy             | Voice Dictation Tool                 |
+| Obsidian          | Knowledge Management Tool            |
 
 ## Terminal Tools
 

@@ -1,0 +1,8 @@
+/* Color for specific tags (reading view + live preview + source mode) */
+a.tag[href="#embedded"],
+.cm-hashtag.cm-hashtag-begin.cm-tag-embedded,
+.cm-hashtag.cm-hashtag-end.cm-tag-embedded {
+  color: #ffffff;
+  background-color: #e8590c;
+  border-color: #e8590c;
+}
