@@ -41,6 +41,7 @@ Dual-Bot System
 | Tmux              | Terminal Multiplexer                 |
 | NeoVim            | Terminal Editor                      |
 | VSCode            | IDE for Backend, Frontend and Mobile |
+| Herdr             | Agent Runtime Tool                   |
 | Android Studio    | IDE for Mobile                       |
 | Dbeaver           | Universal Database Tool              |
 | Docker            | Conteinarization Tool                |
