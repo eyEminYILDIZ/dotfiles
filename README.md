@@ -26,6 +26,7 @@ Dual-Bot System
 | VSCode         | IDE                          |
 | Dbeaver        | Universal Database Tool      |
 | Handy          | Voice Dictation Tool         |
+| Piper          | Text-to-Speech Tool          |
 | Obsidian       | Knowledge Management Tool    |
 
 ## Daily Use Tools
@@ -56,6 +57,7 @@ Dual-Bot System
 | scrcpy            | Android Screen Casting Tool          |
 | git & git-extras  | Version control tools                |
 | Handy             | Voice Dictation Tool                 |
+| Piper             | Text-to-Speech Tool                  |
 | Obsidian          | Knowledge Management Tool            |
 
 ## Terminal Tools
