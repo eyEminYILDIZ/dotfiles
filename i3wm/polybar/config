@@ -346,12 +346,16 @@ type = internal/battery
 battery = BAT0
 adapter = AC
 full-at = 98
+low-at = 20
 
 format-charging = <animation-charging> <label-charging>
 format-charging-underline = ${colors.primary}
 
 format-discharging = <animation-discharging> <label-discharging>
 format-discharging-underline = ${colors.primary}
+
+format-low = <animation-low> <label-low>
+format-low-underline = ${colors.alert}
 
 format-full-prefix = "  "
 format-full-prefix-foreground = ${colors.foreground-alt}
@@ -373,6 +377,12 @@ animation-discharging-1 = 
 animation-discharging-2 =  
 animation-discharging-foreground = ${colors.secondary}
 animation-discharging-framerate = 750
+
+animation-low-0 = ${self.animation-discharging-0}
+animation-low-1 = ${self.animation-discharging-1}
+animation-low-2 = ${self.animation-discharging-2}
+animation-low-foreground = ${colors.alert}
+animation-low-framerate = 750
 
 [module/temperature]
 type = internal/temperature
